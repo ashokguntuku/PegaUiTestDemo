@@ -1,0 +1,218 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2517494,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.BeforeSteps()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Pega Login, Enable Help and Sysadmin applications Test",
+        "description": "",
+        "id": "pega-ui-login,-enable-help-\u0026-sysadmin-apps;pega-login,-enable-help-and-sysadmin-applications-test",
+        "after": [
+          {
+            "result": {
+              "duration": 45571,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.AfterSteps()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10295939741,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on Pega Login Page",
+            "match": {
+              "location": "PegaPostDeploySteps.user_is_on_Pega_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3048328322,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "title of Pega login page is Pega Platform",
+            "match": {
+              "location": "PegaPostDeploySteps.title_of_Pega_login_page_is_Pega_Platform()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 537766509,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Pega user enters username and password for Admin",
+            "match": {
+              "location": "PegaPostDeploySteps.pega_user_enters_username_and_password_for_Admin()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3321243999,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on the login button",
+            "match": {
+              "location": "PegaPostDeploySteps.user_clicks_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 118954033,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is on Pega home page",
+            "match": {
+              "location": "PegaPostDeploySteps.user_is_on_Pega_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6195519174,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user navigates to URL Settings screen",
+            "match": {
+              "location": "PegaPostDeploySteps.user_navigates_to_URL_Settings_screen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4324472566,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters the URLs and click Save",
+            "match": {
+              "location": "PegaPostDeploySteps.user_enters_the__URLs_and_click_Save()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1341835143,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user logs out",
+            "match": {
+              "location": "PegaPostDeploySteps.user_logs_out()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 684412560,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Pega user enters username and password for Admin",
+            "match": {
+              "location": "PegaPostDeploySteps.pega_user_enters_username_and_password_for_Admin()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1301989197,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user clicks on the login button",
+            "match": {
+              "location": "PegaPostDeploySteps.user_clicks_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 74893380,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user is on Pega home page",
+            "match": {
+              "location": "PegaPostDeploySteps.user_is_on_Pega_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5859565572,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user navigates to URL Settings screen",
+            "match": {
+              "location": "PegaPostDeploySteps.user_navigates_to_URL_Settings_screen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1364225316,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user logs out",
+            "match": {
+              "location": "PegaPostDeploySteps.user_logs_out()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 884469134,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "system closes the browser",
+            "match": {
+              "location": "PegaPostDeploySteps.system_closes_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@ModifyURLsTests"
+          }
+        ]
+      }
+    ],
+    "name": "Pega UI Login, Enable Help \u0026 SysAdmin apps",
+    "description": "",
+    "id": "pega-ui-login,-enable-help-\u0026-sysadmin-apps",
+    "keyword": "Feature",
+    "uri": "PegaPostDeploy.feature"
+  }
+]
