@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 42.126 s - in TestSuite
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 19.35 s <<< FAILURE! - in TestSuite
+feature(com.pega.qa.testRunner.TestRunner)  Time elapsed: 17.95 s  <<< FAILURE!
+cucumber.runtime.CucumberException: java.lang.AssertionError: expected [Pega Platform] but found [Pega Designer Studio]
+Caused by: java.lang.AssertionError: expected [Pega Platform] but found [Pega Designer Studio]
+

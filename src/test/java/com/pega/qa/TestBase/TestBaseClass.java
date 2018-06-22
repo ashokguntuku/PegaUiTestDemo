@@ -9,6 +9,8 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.htmlunit.HtmlUnitDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 
 import com.pega.qa.Listener.WebEventListner;
@@ -60,6 +62,17 @@ public class TestBaseClass {
 			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/Driver/chromedrivernew.exe");
 			if (driver == null )	
 				driver = new ChromeDriver();
+		}
+		if (browser.equalsIgnoreCase("IE")) {
+			System.setProperty("webdriver.ie.driver", System.getProperty("user.dir") + "/Driver/IEDriverServer.exe");
+			if (driver == null )	
+				driver = new InternetExplorerDriver();
+		}
+		
+		if (browser.equalsIgnoreCase("Headless")) {
+			//System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/Driver/chromedrivernew.exe");
+			if (driver == null )	
+				driver = new HtmlUnitDriver();
 		}
 
 		e_driver = new EventFiringWebDriver(driver);

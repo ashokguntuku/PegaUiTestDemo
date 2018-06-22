@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 2517494,
+  "duration": 1878662,
   "status": "passed"
 });
 formatter.scenario({
@@ -98,102 +98,102 @@ formatter.match({
   "location": "PegaPostDeploySteps.user_is_on_Pega_Login_Page()"
 });
 formatter.result({
-  "duration": 10295939741,
+  "duration": 13464449332,
   "status": "passed"
 });
 formatter.match({
   "location": "PegaPostDeploySteps.title_of_Pega_login_page_is_Pega_Platform()"
 });
 formatter.result({
-  "duration": 3048328322,
+  "duration": 3069565481,
   "status": "passed"
 });
 formatter.match({
   "location": "PegaPostDeploySteps.pega_user_enters_username_and_password_for_Admin()"
 });
 formatter.result({
-  "duration": 537766509,
+  "duration": 580486226,
   "status": "passed"
 });
 formatter.match({
   "location": "PegaPostDeploySteps.user_clicks_on_the_login_button()"
 });
 formatter.result({
-  "duration": 3321243999,
+  "duration": 4090096508,
   "status": "passed"
 });
 formatter.match({
   "location": "PegaPostDeploySteps.user_is_on_Pega_home_page()"
 });
 formatter.result({
-  "duration": 118954033,
+  "duration": 283159337,
   "status": "passed"
 });
 formatter.match({
   "location": "PegaPostDeploySteps.user_navigates_to_URL_Settings_screen()"
 });
 formatter.result({
-  "duration": 6195519174,
+  "duration": 8215209767,
   "status": "passed"
 });
 formatter.match({
   "location": "PegaPostDeploySteps.user_enters_the__URLs_and_click_Save()"
 });
 formatter.result({
-  "duration": 4324472566,
+  "duration": 4250179306,
   "status": "passed"
 });
 formatter.match({
   "location": "PegaPostDeploySteps.user_logs_out()"
 });
 formatter.result({
-  "duration": 1341835143,
+  "duration": 8279758779,
   "status": "passed"
 });
 formatter.match({
   "location": "PegaPostDeploySteps.pega_user_enters_username_and_password_for_Admin()"
 });
 formatter.result({
-  "duration": 684412560,
+  "duration": 405592138,
   "status": "passed"
 });
 formatter.match({
   "location": "PegaPostDeploySteps.user_clicks_on_the_login_button()"
 });
 formatter.result({
-  "duration": 1301989197,
+  "duration": 1609690870,
   "status": "passed"
 });
 formatter.match({
   "location": "PegaPostDeploySteps.user_is_on_Pega_home_page()"
 });
 formatter.result({
-  "duration": 74893380,
+  "duration": 122205358,
   "status": "passed"
 });
 formatter.match({
   "location": "PegaPostDeploySteps.user_navigates_to_URL_Settings_screen()"
 });
 formatter.result({
-  "duration": 5859565572,
+  "duration": 8291865799,
   "status": "passed"
 });
 formatter.match({
   "location": "PegaPostDeploySteps.user_logs_out()"
 });
 formatter.result({
-  "duration": 1364225316,
+  "duration": 1405800284,
   "status": "passed"
 });
 formatter.match({
   "location": "PegaPostDeploySteps.system_closes_the_browser()"
 });
 formatter.result({
-  "duration": 884469134,
+  "duration": 3477778138,
   "status": "passed"
 });
 formatter.after({
-  "duration": 45571,
+  "duration": 45160,
   "status": "passed"
 });
 });

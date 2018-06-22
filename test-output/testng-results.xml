@@ -2,19 +2,19 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="40452" started-at="2018-06-07T08:50:02Z" finished-at="2018-06-07T08:50:42Z">
+  <suite name="Default suite" duration-ms="59854" started-at="2018-06-22T07:00:27Z" finished-at="2018-06-22T07:01:27Z">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.pega.qa.testRunner.TestRunner@2fd66ad3]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="40452" started-at="2018-06-07T08:50:02Z" finished-at="2018-06-07T08:50:42Z">
+    <test name="Default test" duration-ms="59854" started-at="2018-06-22T07:00:27Z" finished-at="2018-06-22T07:01:27Z">
       <class name="com.pega.qa.testRunner.TestRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.pega.qa.testRunner.TestRunner@2fd66ad3]" name="setUpClass" is-config="true" duration-ms="272" started-at="2018-06-07T14:20:02Z" finished-at="2018-06-07T14:20:02Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.pega.qa.testRunner.TestRunner@2fd66ad3]" name="setUpClass" is-config="true" duration-ms="306" started-at="2018-06-22T12:30:27Z" finished-at="2018-06-22T12:30:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.pega.qa.testRunner.TestRunner@2fd66ad3]" name="feature" duration-ms="39641" started-at="2018-06-07T14:20:02Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-06-07T14:20:42Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.pega.qa.testRunner.TestRunner@2fd66ad3]" name="feature" duration-ms="57955" started-at="2018-06-22T12:30:28Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-06-22T12:31:26Z">
           <params>
             <param index="0">
               <value>
@@ -25,11 +25,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="writeExtentReport()[pri:0, instance:com.pega.qa.testRunner.TestRunner@2fd66ad3]" name="writeExtentReport" duration-ms="37" started-at="2018-06-07T14:20:42Z" finished-at="2018-06-07T14:20:42Z">
+        <test-method status="PASS" signature="writeExtentReport()[pri:0, instance:com.pega.qa.testRunner.TestRunner@2fd66ad3]" name="writeExtentReport" duration-ms="85" started-at="2018-06-22T12:31:26Z" finished-at="2018-06-22T12:31:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- writeExtentReport -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.pega.qa.testRunner.TestRunner@2fd66ad3]" name="tearDownClass" is-config="true" duration-ms="358" started-at="2018-06-07T14:20:42Z" finished-at="2018-06-07T14:20:42Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.pega.qa.testRunner.TestRunner@2fd66ad3]" name="tearDownClass" is-config="true" duration-ms="1349" started-at="2018-06-22T12:31:26Z" finished-at="2018-06-22T12:31:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

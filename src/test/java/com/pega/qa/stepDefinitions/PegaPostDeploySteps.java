@@ -10,6 +10,7 @@ import org.testng.Assert;
 
 import com.pega.qa.Pages.LoginPage;
 import com.pega.qa.TestBase.TestBaseClass;
+import com.pega.qa.Util.StringEncrypt;
 //import com.pega.qa.TestBase.TestBaseClass;
 //import com.pega.qa.Util.WebPageOperations;
 import com.pega.qa.Util.WebPageOperations;
@@ -47,7 +48,9 @@ public class PegaPostDeploySteps extends TestBaseClass {
 		lp.enter_username("");
 		lp.enter_password("");
 		lp.enter_username(prop.getProperty("Admin_User"));
-		lp.enter_password(prop.getProperty("Admin_Password"));
+		String decryptedPwd = StringEncrypt.decryptXOR(prop.getProperty("Admin_PasswordEncrypted"), prop.getProperty("Admin_PasswordKey"));
+		System.out.println("decryptedPwd : "+decryptedPwd);
+		lp.enter_password(decryptedPwd);
 		System.out.println("LoginPage admin credentials entered");
 	    
 	}
